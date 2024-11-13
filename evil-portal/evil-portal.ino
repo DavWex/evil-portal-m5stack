@@ -48,8 +48,8 @@
 
 #define DEFAULT_AP_SSID_NAME "Google WiFi"
 #define SD_CREDS_PATH "/evil-portal-creds.txt"
-// #define LANGUAGE_EN_US
-#define LANGUAGE_PT_BR
+#define LANGUAGE_EN_US
+// #define LANGUAGE_PT_BR
 
 #if defined(LANGUAGE_EN_US) && defined(LANGUAGE_PT_BR)
 #error "Please define only one language: LANGUAGE_EN_US or LANGUAGE_PT_BR"
